@@ -1,0 +1,25 @@
+{
+  "name": "@automacao.info/ai-block",
+  "version": "1.0.10",
+  "description": "Webcomponent ai-block following open-wc recommendations. A simple and super lightweight web component to create blocks.",
+  "author": "automacao.info",
+  "license": "MIT",
+  "main": "index.js",
+  "module": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/automacao.info/ai-block.git"
+  },
+  "scripts": {
+    "start": "es-dev-server --app-index demo/index.html --node-resolve --open --watch"
+  },
+  "dependencies": {
+    "lit-html": "^1.1.2"
+  },
+  "devDependencies": {
+    "es-dev-server": "^1.23.0"
+  }
+}

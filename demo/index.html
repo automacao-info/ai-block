@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      background: #fafafa;
+    }
+  </style>
+  <link href="./card.css" rel="stylesheet" />
+</head>
+<body>
+  <div id="demo"></div>
+
+</script>
+  <script type="module">
+    import { html, render } from 'lit-html';
+    import '../index.js';
+
+    const title = 'Hello owc World!';
+    render(
+      html`
+        <ai-block class="card" block-title="Hello Card">
+          <section>
+            <p class="date"><a href="#date"><time datetime="2020-01-01">Jan 1, 2020</time></a></p>
+            <h4><a href="#title"><code>&ltai-block&gt</code> Demo</a></h4>
+          </section>
+          <ai-block class="author-name" block-title="Author Card" block-width="150px" show-border>
+            <a href="#author">Author Name is Awesome</a>
+          </ai-block>
+          <footer class="tags">
+            <a class="tag" href="#tag_one">Tag One</a>
+            <a class="tag" href="#tag_two">Tag Two</a>
+          </footer>
+        </ai-block>
+      `,
+      document.querySelector('#demo')
+    );
+  </script>
+</body>
+</html>

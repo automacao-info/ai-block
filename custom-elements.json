@@ -1,0 +1,56 @@
+{
+  "version": 2,
+  "tags": [
+    {
+      "name": "ai-block",
+      "description": "A simple and super lightweight web component to create blocks with title.",
+      "attributes": [
+        {
+          "name": "block-title",
+          "description": "Text for Title",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "width",
+          "description": "width for block",
+          "type": "string"
+        },
+        {
+          "name": "show-border",
+          "description": "Boolean to enable border display",
+          "type": "boolean"
+        }
+      ],
+      "properties": [
+        {
+          "name": "blockTitle",
+          "attribute": "block-title",
+          "description": "Text for Title",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "width",
+          "attribute": "width",
+          "description": "width for block",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "showBorder",
+          "attribute": "show-border",
+          "description": "Boolean to enable border display",
+          "type": "boolean",
+          "default": false
+        }
+      ],
+      "slots": [
+        {
+          "name": "",
+          "description": "The default slot for this component's content"
+        }
+      ]
+    }
+  ]
+}
