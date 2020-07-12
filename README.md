@@ -51,6 +51,8 @@ Is it possible import using unpkg.com as you see bellow:
 </script>
 ```
 
+The unpkg.com will expand our component like this: [https://unpkg.com/@automacao.info/ai-block@1.0.10/src/AiBlock.js?module](https://unpkg.com/@automacao.info/ai-block@1.0.10/src/AiBlock.js?module)
+
 ## Tooling configs
 
 For most of the tools, the configuration is in the `package.json` to reduce the amount of files in your project.
