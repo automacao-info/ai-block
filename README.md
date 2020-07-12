@@ -43,6 +43,14 @@ File `test.html`
 </ai-block>
 ```
 
+Is it possible import using unpkg.com as you see bellow:
+
+```html
+<script type="module"
+        src="https://unpkg.com/@automacao.info/ai-block?module">
+</script>
+```
+
 ## Tooling configs
 
 For most of the tools, the configuration is in the `package.json` to reduce the amount of files in your project.
